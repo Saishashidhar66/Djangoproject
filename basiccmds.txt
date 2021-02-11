@@ -1,0 +1,7 @@
+python -m venv env
+source env/Scripts/activate
+pip install django==3.0.7
+django-admin startproject myproject .
+python manage.py runserver
+python manage.py startapp pages
+python manage.py collectstatic
