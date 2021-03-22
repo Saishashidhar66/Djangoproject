@@ -1,0 +1,1278 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "AZ",
+        "color": "black",
+        "model": "edge",
+        "year": 2003,
+        "condition": "Used",
+        "price": 122,
+        "description": "<p>f</p>",
+        "car_photo": "photos/2021/02/22/1902536891_FB3n8x0.jpg",
+        "car_photo1": "photos/2021/02/24/1902537043.jpg",
+        "car_photo2": "photos/2021/02/24/1902537082.jpg",
+        "car_photo3": "photos/2021/02/24/1902536917.jpg",
+        "features": "Seat Heating,Auto Start/Stop",
+        "body_style": "sports",
+        "engine": "v5",
+        "transmission": "automatic",
+        "interior": "RED",
+        "miles": 11,
+        "door_choices": "3",
+        "passengers": 11,
+        "vin_no": "45453",
+        "milage": 1,
+        "fuel_type": "p",
+        "number_of_owners": "1",
+        "is_featured": true,
+        "created_data": "2021-02-22T15:59:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ferrari 488",
+        "state": "CA",
+        "color": "black",
+        "model": "edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 1000000,
+        "description": "<p><strong>Ferrari&nbsp;</strong></p>",
+        "car_photo": "photos/2021/02/23/1902536891.jpg",
+        "car_photo1": "photos/2021/02/23/1902536917.jpg",
+        "car_photo2": "photos/2021/02/23/1902537043.jpg",
+        "car_photo3": "photos/2021/02/23/1902537082.jpg",
+        "features": "Audio Interface,Airbags,Seat Heating,ParkAssist,Power Steering,Auto Start/Stop,Wind Deflector",
+        "body_style": "sports",
+        "engine": "v5",
+        "transmission": "automatic",
+        "interior": "RED",
+        "miles": 1222,
+        "door_choices": "2",
+        "passengers": 3,
+        "vin_no": "45453",
+        "milage": 44,
+        "fuel_type": "diesel",
+        "number_of_owners": "1",
+        "is_featured": true,
+        "created_data": "2021-02-22T15:01:57Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "CO",
+        "color": "white",
+        "model": "edge",
+        "year": 2012,
+        "condition": "Used",
+        "price": 1111,
+        "description": "<p>2017 Ford Edge</p>",
+        "car_photo": "photos/2021/02/23/1901478607.jpg",
+        "car_photo1": "photos/2021/02/23/1901478618.jpg",
+        "car_photo2": "photos/2021/02/23/1901478646.jpg",
+        "car_photo3": "photos/2021/02/23/1901478687.jpg",
+        "features": "Power Steering,Reversing Camera,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "sports",
+        "engine": "v5",
+        "transmission": "automatic",
+        "interior": "RED",
+        "miles": 222,
+        "door_choices": "2",
+        "passengers": 5,
+        "vin_no": "655453",
+        "milage": 1,
+        "fuel_type": "petrol",
+        "number_of_owners": "2",
+        "is_featured": true,
+        "created_data": "2021-02-23T14:35:19Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "KS",
+        "color": "Dark Blue",
+        "model": "block",
+        "year": 2019,
+        "condition": "un used",
+        "price": 84525,
+        "description": "<p>2017 Ford F-250 Super Duty</p>",
+        "car_photo": "photos/2021/02/23/1894300894.jpg",
+        "car_photo1": "photos/2021/02/23/1894300905.jpg",
+        "car_photo2": "photos/2021/02/23/1900155012.jpg",
+        "car_photo3": "photos/2021/02/23/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Reversing Camera,Direct Fuel Injection,Wind Deflector",
+        "body_style": "sports",
+        "engine": "v5",
+        "transmission": "manually",
+        "interior": "RED",
+        "miles": 855,
+        "door_choices": "5",
+        "passengers": 3,
+        "vin_no": "12314",
+        "milage": 443212,
+        "fuel_type": "petrol",
+        "number_of_owners": "2",
+        "is_featured": true,
+        "created_data": "2021-02-23T14:37:21Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "WA",
+        "color": "black",
+        "model": "edge",
+        "year": 2016,
+        "condition": "Used",
+        "price": 121312,
+        "description": "<p>2017 Jaguar F-PACE</p>",
+        "car_photo": "photos/2021/02/23/1902932528.jpg",
+        "car_photo1": "photos/2021/02/23/1902932503.jpg",
+        "car_photo2": "photos/2021/02/23/1902932542.jpg",
+        "car_photo3": "photos/2021/02/23/1902932528_KfTLRsz.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,Seat Heating,Alarm System,Power Steering,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "sports",
+        "engine": "x2",
+        "transmission": "automatic",
+        "interior": "blue",
+        "miles": 9222,
+        "door_choices": "6",
+        "passengers": 4,
+        "vin_no": "321412413",
+        "milage": 2222232,
+        "fuel_type": "diesel",
+        "number_of_owners": "2",
+        "is_featured": true,
+        "created_data": "2021-02-23T14:55:34Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "WY",
+        "color": "red",
+        "model": "block",
+        "year": 2003,
+        "condition": "Used",
+        "price": 365524533,
+        "description": "<p>2018 Toyota Corolla</p>",
+        "car_photo": "photos/2021/02/24/1900893319.jpg",
+        "car_photo1": "photos/2021/02/24/1900893299.jpg",
+        "car_photo2": "photos/2021/02/24/1900893391.jpg",
+        "car_photo3": "photos/2021/02/24/1900893311.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "sports",
+        "engine": "v5",
+        "transmission": "automatic",
+        "interior": "RED",
+        "miles": 31110,
+        "door_choices": "5",
+        "passengers": 6,
+        "vin_no": "52025352",
+        "milage": 525525454,
+        "fuel_type": "diesel",
+        "number_of_owners": "2",
+        "is_featured": true,
+        "created_data": "2021-02-24T13:49:30Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 7,
+    "fields": {
+        "car_title": "2018 Toyota 4Runnera",
+        "state": "IN",
+        "color": "guy",
+        "model": "edge",
+        "year": 2021,
+        "condition": "Used",
+        "price": 64545645,
+        "description": "<p><strong>2018 Toyota 4Runnera</strong></p>",
+        "car_photo": "photos/2021/03/01/1893633875.jpg",
+        "car_photo1": "photos/2021/03/01/1893633879.jpg",
+        "car_photo2": "photos/2021/03/01/1896836883.jpg",
+        "car_photo3": "photos/2021/03/01/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "classical",
+        "engine": "x5",
+        "transmission": "automatic",
+        "interior": "RED",
+        "miles": 874548,
+        "door_choices": "4",
+        "passengers": 5,
+        "vin_no": "87454255",
+        "milage": 20,
+        "fuel_type": "diesel",
+        "number_of_owners": "3",
+        "is_featured": true,
+        "created_data": "2021-03-01T06:18:10Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "sai",
+        "lastname_name": "shashidhar",
+        "designation": "ml engineer",
+        "photo": "photos/2021/02/16/IMG_20200119_203951_153.jpg",
+        "instagram_link": "https://www.instagram.com/shashiii_45/",
+        "twitter_link": "https://twitter.com/Saishashidhar66",
+        "github_link": "https://github.com/saishashidhar66",
+        "created_date": "2021-02-16T15:43:16.590Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Jayaram",
+        "lastname_name": "majeti",
+        "designation": "software engineer",
+        "photo": "photos/2021/02/17/DSC_0972.JPG",
+        "instagram_link": "https://twitter.com/MajetiJayaram",
+        "twitter_link": "https://twitter.com/MajetiJayaram",
+        "github_link": "https://github.com/MajetiJayaram",
+        "created_date": "2021-02-17T06:03:18.126Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "thunga",
+        "lastname_name": "Karthik",
+        "designation": "BTech",
+        "photo": "photos/2021/02/17/DSC_0756.jpg",
+        "instagram_link": "https://instagram.com/thungakarthik",
+        "twitter_link": "https://twitter.com/thungakarthik",
+        "github_link": "https://github.com/thungakarthik",
+        "created_date": "2021-02-17T06:04:42.308Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "asdas",
+        "lastname_name": "asdas",
+        "designation": "asadfas",
+        "photo": "photos/2021/02/17/30GoGreen.jpg",
+        "instagram_link": "https://twitter.com/MajetiJayaram",
+        "twitter_link": "https://twitter.com/Saishashidhar66",
+        "github_link": "https://github.com/saishashidhar66",
+        "created_date": "2021-02-17T06:05:33.915Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "first_name": "dsfdfas",
+        "lastname_name": "dfdsafasd",
+        "designation": "fasdfadsfda",
+        "photo": "photos/2021/02/17/22-43-34-block_diagram.JPG",
+        "instagram_link": "https://twitter.com/MajetiJayaram",
+        "twitter_link": "https://twitter.com/Saishashidhar66",
+        "github_link": "https://github.com/saishashidhar66",
+        "created_date": "2021-02-17T06:56:29.772Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$rnnhPSu3tGzd$c+mJJQSbaZtyJJU+gI7RxKF10GgZP/ms3cBofkbAlZU=",
+        "last_login": "2021-03-22T13:31:12.143Z",
+        "is_superuser": true,
+        "username": "shashiii",
+        "first_name": "",
+        "last_name": "",
+        "email": "saishashidhar66@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-16T14:53:56.578Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$94vDVm1UsbO4$d307Kk/PD1xObMaZ8fi/vch2UaZ2fk4Aq54rr4HtxYQ=",
+        "last_login": "2021-03-19T07:05:41.573Z",
+        "is_superuser": false,
+        "username": "django1",
+        "first_name": "django",
+        "last_name": "django",
+        "email": "django@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-05T18:16:54.868Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$SBkQep30fWWi$/1t7exUEo/NFxudr/42/7ieqoL0UsOjvzyIZbf9HCbg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "shashiii45",
+        "first_name": "Thogaru",
+        "last_name": "shashidhar",
+        "email": "shashiii@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-16T13:27:58.308Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!9W5VctqgoaEMHb5xyTakEuBv2i7TKoQxjePVU3us",
+        "last_login": "2021-03-21T17:32:26.959Z",
+        "is_superuser": false,
+        "username": "sai",
+        "first_name": "Sai",
+        "last_name": "Shashidhar",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-19T18:10:54.996Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!QxZT0ztApdero3nUdqI4iDzL48L1S5Ir7v1yhAcQ",
+        "last_login": "2021-03-19T18:12:32.987Z",
+        "is_superuser": false,
+        "username": "18k41a0",
+        "first_name": "18K41A0",
+        "last_name": "5H2",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-19T18:12:32.967Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!vDjyJag0zKOIhllKWv0slR76ULQUMz53pjgyejmb",
+        "last_login": "2021-03-21T17:32:34.299Z",
+        "is_superuser": false,
+        "username": "Saishashidhar66",
+        "first_name": "saishashidhar",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-19T18:43:54.671Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!NXDVXBevzKfYjYMu8YRgixEpVBna9q7NXc1mrpD0",
+        "last_login": "2021-03-22T13:32:52.705Z",
+        "is_superuser": false,
+        "username": "sai4",
+        "first_name": "Sai",
+        "last_name": "ShaShidhar",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-03-22T13:32:52.410Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "34g3ys9saeuo5uj87tjy3eo2nh4mwpkr",
+    "fields": {
+        "session_data": "YTU4MWJjMGRjNjVlNjM1YmE1YmQzNGY2NjA1OTRlZmNkYWQ5Njk1MDp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwib1lVaTZRbnFBSXhKIl0sIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1NjM4NTEyYzE2MWJkOWIwNmMxM2I1MTc4OTY2N2Q5YmY0YTgwOTVkIn0=",
+        "expire_date": "2021-04-05T13:31:12.145Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l5pb0ls3tttakjyu3e3ph50uwmtkl3li",
+    "fields": {
+        "session_data": "YTMzNzE2NzkyZjhjNDkxOTM3MDhmYzdlNTRjNzUyZWViMjg1M2M5Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1NjM4NTEyYzE2MWJkOWIwNmMxM2I1MTc4OTY2N2Q5YmY0YTgwOTVkIn0=",
+        "expire_date": "2021-03-03T06:02:09.209Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uhwjkl5vpfx8vg1ch40q8dhtd7sk1cgd",
+    "fields": {
+        "session_data": "YTMzNzE2NzkyZjhjNDkxOTM3MDhmYzdlNTRjNzUyZWViMjg1M2M5Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1NjM4NTEyYzE2MWJkOWIwNmMxM2I1MTc4OTY2N2Q5YmY0YTgwOTVkIn0=",
+        "expire_date": "2021-03-17T19:06:11.612Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vj0de0adjsqtbci2e7sxlqr31gz8tpzz",
+    "fields": {
+        "session_data": "YTMzNzE2NzkyZjhjNDkxOTM3MDhmYzdlNTRjNzUyZWViMjg1M2M5Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1NjM4NTEyYzE2MWJkOWIwNmMxM2I1MTc4OTY2N2Q5YmY0YTgwOTVkIn0=",
+        "expire_date": "2021-03-06T15:25:13.669Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Thogaru",
+        "last_name": "shashidhar",
+        "car_id": 7,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runnera",
+        "city": "warangal",
+        "state": "Telangana",
+        "email": "saishashidhar66@gmail.com",
+        "message": "a",
+        "phone": "0957 322 4936",
+        "user_id": 0,
+        "created_date": "2021-03-19T10:26:57.647Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "wqwq",
+        "last_name": "wqwq",
+        "car_id": 7,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runnera",
+        "city": "wq",
+        "state": "wq",
+        "email": "sda@gmail.com",
+        "message": "sda",
+        "phone": "54",
+        "user_id": 1,
+        "created_date": "2021-03-19T10:36:26.796Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Thogaru",
+        "last_name": "shashidhar",
+        "car_id": 2,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488",
+        "city": "warangal",
+        "state": "Telangana",
+        "email": "saishashidhar66@gmail.com",
+        "message": "",
+        "phone": "0957 322 4936",
+        "user_id": 1,
+        "created_date": "2021-03-19T10:52:21.728Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "django",
+        "last_name": "django",
+        "car_id": 7,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runnera",
+        "city": "wa",
+        "state": "sa",
+        "email": "django@gmail.com",
+        "message": "1",
+        "phone": "123",
+        "user_id": 2,
+        "created_date": "2021-03-19T12:36:13.361Z"
+    }
+},
+{
+    "model": "contacts.contactpage",
+    "pk": 1,
+    "fields": {
+        "name": "Thogaru sai shashidhar",
+        "email": "saishashidhar66@gmail.com",
+        "message": "",
+        "phone": null
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "1316917792023674",
+        "secret": "9623a2f1e9c00733eff7f6a8fb530b7e",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "906013826447-877has6lfge6rtd4mpvovjt04v654tje.apps.googleusercontent.com",
+        "secret": "q4wSL4ljzWyIypBYafMm9hx5",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 3,
+    "fields": {
+        "provider": "github",
+        "name": "Github login",
+        "client_id": "5ed81ebdc5144594950a",
+        "secret": "7de1fa2c617bc300b4dca8ce327a3535c0f86c19",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "sai"
+        ],
+        "provider": "google",
+        "uid": "114791176474445622097",
+        "last_login": "2021-03-21T17:32:26.813Z",
+        "date_joined": "2021-03-19T18:10:55.025Z",
+        "extra_data": "{\"id\": \"114791176474445622097\", \"name\": \"Sai Shashidhar\", \"given_name\": \"Sai\", \"family_name\": \"Shashidhar\", \"picture\": \"https://lh3.googleusercontent.com/a-/AOh14GjrfReVCgAs9fFBC97LMW7j2SjUNytEG0OLSy6oeQ=s96-c\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "18k41a0"
+        ],
+        "provider": "google",
+        "uid": "114315107013491966255",
+        "last_login": "2021-03-19T18:12:32.977Z",
+        "date_joined": "2021-03-19T18:12:32.977Z",
+        "extra_data": "{\"id\": \"114315107013491966255\", \"name\": \"18K41A0 5H2\", \"given_name\": \"18K41A0\", \"family_name\": \"5H2\", \"picture\": \"https://lh4.googleusercontent.com/-saIJ7V1ABBo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnAKP0pXfPG-_SbzFSvywJ8mZTwRA/s96-c/photo.jpg\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "Saishashidhar66"
+        ],
+        "provider": "github",
+        "uid": "53369848",
+        "last_login": "2021-03-21T17:32:34.286Z",
+        "date_joined": "2021-03-19T18:43:54.682Z",
+        "extra_data": "{\"login\": \"Saishashidhar66\", \"id\": 53369848, \"node_id\": \"MDQ6VXNlcjUzMzY5ODQ4\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/53369848?v=4\", \"gravatar_id\": \"\", \"url\": \"https://api.github.com/users/Saishashidhar66\", \"html_url\": \"https://github.com/Saishashidhar66\", \"followers_url\": \"https://api.github.com/users/Saishashidhar66/followers\", \"following_url\": \"https://api.github.com/users/Saishashidhar66/following{/other_user}\", \"gists_url\": \"https://api.github.com/users/Saishashidhar66/gists{/gist_id}\", \"starred_url\": \"https://api.github.com/users/Saishashidhar66/starred{/owner}{/repo}\", \"subscriptions_url\": \"https://api.github.com/users/Saishashidhar66/subscriptions\", \"organizations_url\": \"https://api.github.com/users/Saishashidhar66/orgs\", \"repos_url\": \"https://api.github.com/users/Saishashidhar66/repos\", \"events_url\": \"https://api.github.com/users/Saishashidhar66/events{/privacy}\", \"received_events_url\": \"https://api.github.com/users/Saishashidhar66/received_events\", \"type\": \"User\", \"site_admin\": false, \"name\": \"saishashidhar\", \"company\": null, \"blog\": \"saishashidhar.pythonanywhere.com/\", \"location\": \"warangal\", \"email\": null, \"hireable\": null, \"bio\": null, \"twitter_username\": \"Saishashidhar66\", \"public_repos\": 26, \"public_gists\": 0, \"followers\": 3, \"following\": 6, \"created_at\": \"2019-07-27T11:06:44Z\", \"updated_at\": \"2021-03-19T18:27:26Z\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "sai4"
+        ],
+        "provider": "facebook",
+        "uid": "1515214188682917",
+        "last_login": "2021-03-22T13:32:52.526Z",
+        "date_joined": "2021-03-22T13:32:52.526Z",
+        "extra_data": "{\"id\": \"1515214188682917\", \"name\": \"Sai ShaShidhar\", \"first_name\": \"Sai\", \"last_name\": \"ShaShidhar\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 2,
+        "account": 1,
+        "token": "ya29.a0AfH6SMBkfQbV_RwyeYWrvZO-ujxyeXNFcadHVAHFLkcNQMOQrfkh6oHhoAC8ffiMPwUnBo90C3Ly_93FoOj25PnwKb7dwscSqpjQG2s419MS5wIgrAp4uP1lps0jOUktPyRExUvc5nGvpZneYipAranJy_PM",
+        "token_secret": "",
+        "expires_at": "2021-03-21T18:32:25.526Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 2,
+    "fields": {
+        "app": 2,
+        "account": 2,
+        "token": "ya29.a0AfH6SMAsXjZ6jUgtsiXYFa_Us-ai7pMn5Cgi2yRAIbQALF5FCeOuFJBQAEPD71DVVx6UoryfVg9NtYpj7jiaI4NXL7YmKhLNme7kbRk-CWKtkCTaaSZuPA6F-ZzesdaLHuBabNwBhZBxcqgGI6EP44IVBFxP",
+        "token_secret": "",
+        "expires_at": "2021-03-19T19:12:31.756Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 3,
+    "fields": {
+        "app": 3,
+        "account": 3,
+        "token": "15741ed2ce5cdf85a3936a86783e402015bfd3e0",
+        "token_secret": "",
+        "expires_at": null
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 4,
+    "fields": {
+        "app": 1,
+        "account": 4,
+        "token": "EAAStutExJHoBAFcOJDmZAstSJx3cebF9U3ExSIJvUH1Akur61ddIi11tdv34Kd2i1Eos5YuVJ1Fw2XyCKYehztFhkkpIB0YsPmqNXQJZA3JB1eJZCRYyRuzryACKNGwEjCbUSrpHgCypBYpeHHU9sc9KgbF2loQSlpg1eISPgZDZD",
+        "token_secret": "",
+        "expires_at": "2021-05-20T17:32:43.000Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-02-16T15:43:16.592Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-02-16T15:48:11.892Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Team object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-02-16T16:05:10.397Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Jayaram",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-02-16T16:05:17.413Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Jayaram",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-02-16T16:05:29.622Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "sai",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-02-17T06:02:27.101Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Jayaram",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-02-17T06:03:18.127Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Jayaram",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-02-17T06:04:42.309Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "thunga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-02-17T06:05:19.089Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "thunga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-02-17T06:05:33.916Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "asdas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-02-17T06:30:44.754Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "thunga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-02-17T06:31:06.716Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "thunga",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-02-17T06:56:29.774Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "dsfdfas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-02-22T15:59:23.905Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-02-22T18:54:24.733Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-02-22T18:54:54.975Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-02-23T14:35:23.141Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-02-23T14:37:22.844Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-02-23T14:53:39.489Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Fuel type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-02-23T14:54:10.541Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ferrari 488",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\", \"Fuel type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-02-23T14:55:35.798Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-02-24T13:49:31.991Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-02-24T15:06:23.488Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo1\", \"Car photo2\", \"Car photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-03-01T06:18:12.872Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "2018 Toyota 4Runnera",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-03-19T17:09:49.976Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-03-19T17:10:55.016Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-03-19T17:20:51.464Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-03-19T17:21:35.263Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Secret key\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-03-19T17:45:44.088Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-03-19T18:08:41.910Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-03-19T18:31:42.235Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "3",
+        "object_repr": "Github login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-03-21T17:25:54.022Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "3",
+        "object_repr": "Github login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-03-22T13:32:17.042Z",
+        "user": [
+            "shashiii"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Secret key\"]}}]"
+    }
+}
+]
