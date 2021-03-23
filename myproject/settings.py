@@ -26,7 +26,7 @@ SECRET_KEY = '$&k@1+*+gb68xg2t5@#akx3&i!x_-!sw+e@)605zgt85jl(=$w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
