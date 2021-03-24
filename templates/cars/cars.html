@@ -19,11 +19,11 @@
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="row">
-                {% for car in cars %}
+                    {% for car in cars %}
                     <div class="col-lg-6 col-md-6">
                         <div class="car-box-3">
                             <div class="car-thumbnail">
-                                <a href="car-details.html" class="car-img">
+                                <a href="{% url 'car_detail' car.id %}" class="car-img">
                                     <div class="tag">For Rent</div>
                                     <div class="price-box">
                                         <span>{{ car.price | intcomma}}</span>
@@ -35,25 +35,22 @@
                                         <div class="overlap-btns-area">
                                             <div class="car-magnify-gallery">
                                                 {% if car.car_photo %}
-                                                    <a href="{{ car.car_photo.url }}" class="hidden" >
-                                                        <img class="hidden" src="{{ car.car_photo1.url }}">
-                                                    </a>
-                                                    {% endif %}
-                                                    {% if car.car_photo1 %}
-                                                    <a href="{{ car.car_photo1.url }}" class="hidden">
-                                                        <img class="hidden" src="{{ car.car_photo2.url }}">
-                                                    </a>
-                                                    {% endif %}
-                                                    {% if car.car_photo2 %}
-                                                    <a href="{{ car.car_photo2.url }}" class="hidden">
-                                                        <img class="hidden" src="{{ car.car_photo3.url }}">
-                                                    </a>
-                                                    {% endif %}
-                                                    {% if car.car_photo3 %}
-                                                    <a href="{{ car.car_photo3.url }}" class="hidden" >
-                                                        <img class="hidden" src="{{ car.car_photo4.url }}">
-                                                    </a>
-                                              {% endif %}
+                                                <a href="{{ car.car_photo.url }}" class="hidden">
+                                                    <img class="hidden" src="{{ car.car_photo1.url }}">
+                                                </a>
+                                                {% endif %} {% if car.car_photo1 %}
+                                                <a href="{{ car.car_photo1.url }}" class="hidden">
+                                                    <img class="hidden" src="{{ car.car_photo2.url }}">
+                                                </a>
+                                                {% endif %} {% if car.car_photo2 %}
+                                                <a href="{{ car.car_photo2.url }}" class="hidden">
+                                                    <img class="hidden" src="{{ car.car_photo3.url }}">
+                                                </a>
+                                                {% endif %} {% if car.car_photo3 %}
+                                                <a href="{{ car.car_photo3.url }}" class="hidden">
+                                                    <img class="hidden" src="{{ car.car_photo4.url }}">
+                                                </a>
+                                                {% endif %}
                                             </div>
                                         </div>
                                     </div>
@@ -61,22 +58,22 @@
                             </div>
                             <div class="detail">
                                 <h1 class="title">
-                                    <a href="car-details.html">{{ car.car_title }}</a>
+                                    <a href="{% url 'car_detail' car.id %}">{{ car.car_title }}</a>
                                 </h1>
                                 <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="{% url 'car_detail' car.id %}">
                                         <i class="flaticon-pin"></i>{{ car.state }}
                                     </a>
                                 </div>
                                 <ul class="facilities-list clearfix">
-                                    
-                                <li>{{ car.fuel_type }}</li>
-                                <li>{{ car.miles |intcomma}}km</li>
-                                <li>{{ car.transmission}}</li>
-                                <li>{{ car.door_choices }}</li>
-                                <li>{{ car.color }}</li>
-                                <li>{{ car.year }}</li>
-                                <li>{{ car.condition }}</li>
+
+                                    <li>{{ car.fuel_type }}</li>
+                                    <li>{{ car.miles |intcomma}}km</li>
+                                    <li>{{ car.transmission}}</li>
+                                    <li>{{ car.door_choices }}</li>
+                                    <li>{{ car.color }}</li>
+                                    <li>{{ car.year }}</li>
+                                    <li>{{ car.condition }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -84,11 +81,11 @@
                     {% endfor %}
                 </div>
                 <!-- Page navigation start -->
-              <div class="pagination-box p-box-2 text-center">
+                <div class="pagination-box p-box-2 text-center">
                     <nav aria-label="Page navigation example">
-                      {% if cars.has_other_pages %}
+                        {% if cars.has_other_pages %}
                         <ul class="pagination">
-                          {% if cars.has_previous %}
+                            {% if cars.has_previous %}
                             <li class="page-item">
                                 <a class="page-link" href="?page={{cars.previous_page_number}}"><i class="fa fa-angle-left"></i></a>
                             </li>
@@ -96,24 +93,22 @@
                             <li class="page-item disabled">
                                 <a class="page-link"><i class="fa fa-angle-left"></i></a>
                             </li>
-                            {% endif %}
-
-                            {% for i in cars.paginator.page_range %}
-                              {% if cars.number == i %}
-                            <li class="page-item"><a class="page-link active"">{{ i }}</a></li>
+                            {% endif %} {% for i in cars.paginator.page_range %} {% if cars.number == i %}
+                            <li class="page-item">
+                                <a class="page-link active" ">{{ i }}</a></li>
                             {% else %}
-                            <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                            <li class="page-item "><a class="page-link " href="?page={{ i }} ">{{ i }}</a></li>
                             {% endif %}
                           {% endfor %}
 
 
                           {% if cars.has_next %}
-                            <li class="page-item">
-                                <a class="page-link" href="?page={{cars.next_page_number}}"><i class="fa fa-angle-right"></i></a>
+                            <li class="page-item ">
+                                <a class="page-link " href="?page={{cars.next_page_number}} "><i class="fa fa-angle-right "></i></a>
                             </li>
                             {% else %}
-                            <li class="page-item disabled">
-                                <a class="page-link"><i class="fa fa-angle-right"></i></a>
+                            <li class="page-item disabled ">
+                                <a class="page-link "><i class="fa fa-angle-right "></i></a>
                             </li>
                             {% endif %}
 
@@ -123,71 +118,71 @@
                     </nav>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="sidebar-right">
+            <div class="col-lg-4 col-md-12 ">
+                <div class="sidebar-right ">
                     <!-- Advanced search start -->
-                    <div class="widget advanced-search2">
-                        <h3 class="sidebar-title">Search your desire car</h3>
-                          <form action="{% url 'search' %}" method="">
-                <div class="form-group">
-                    <input type="text" name="keyword" placeholder="Search by name" class="form-control">
+                    <div class="widget advanced-search2 ">
+                        <h3 class="sidebar-title ">Search your desire car</h3>
+                          <form action="{% url 'search' %} " method=" ">
+                <div class="form-group ">
+                    <input type="text " name="keyword " placeholder="Search by name " class="form-control ">
                 </div>
 
-                <div class="form-group">
-                    <select class="form-control search-fields" name="model">
-                        <option selected="true" disabled="disabled">Model</option>
+                <div class="form-group ">
+                    <select class="form-control search-fields " name="model ">
+                        <option selected="true " disabled="disabled ">Model</option>
                         {% for model in model_search %}
-                        <option value = "{{model}}">{{model}}</option>
+                        <option value = "{{model}} ">{{model}}</option>
                         {% endfor %}
                     </select>
                 </div>
-                <div class="form-group">
-                    <select class="form-control search-fields" name="state">
-                        <option selected="true" disabled="disabled">Location</option>
+                <div class="form-group ">
+                    <select class="form-control search-fields " name="state ">
+                        <option selected="true " disabled="disabled ">Location</option>
                         {% for state in state_search %}
-                        <option value = "{{state}}">{{state}}</option>
+                        <option value = "{{state}} ">{{state}}</option>
                         {% endfor %}
                     </select>
                 </div>
-                <div class="form-group">
-                    <select class="form-control search-fields" name="year">
-                        <option selected="true" disabled="disabled">Year</option>
+                <div class="form-group ">
+                    <select class="form-control search-fields " name="year ">
+                        <option selected="true " disabled="disabled ">Year</option>
                         {% for year in year_search %}
-                        <option value = "{{year}}">{{year}}</option>
+                        <option value = "{{year}} ">{{year}}</option>
                         {% endfor %}
                     </select>
                 </div>
-                <div class="form-group">
-                    <select class="form-control search-fields" name="body_style">
-                        <option selected="true" disabled="disabled">Select Type Of Car</option>
+                <div class="form-group ">
+                    <select class="form-control search-fields " name="body_style ">
+                        <option selected="true " disabled="disabled ">Select Type Of Car</option>
                         {% for body_style in body_style_search %}
-                        <option value = "{{body_style}}">{{body_style}}</option>
+                        <option value = "{{body_style}} ">{{body_style}}</option>
                         {% endfor %}
                     </select>
                 </div>
-                <div class="range-slider clearfix">
+                <div class="range-slider clearfix ">
                     <label>Price</label>
-                    <div data-min="0" data-max="150000" data-min-name="min_price" data-max-name="max_price" data-unit="USD" class="range-slider-ui ui-slider" aria-disabled="false"></div>
-                    <div class="clearfix"></div>
+                    <div data-min="0 " data-max="150000 " data-min-name="min_price " data-max-name="max_price " data-unit="USD " class="range-slider-ui ui-slider " aria-disabled="false "></div>
+                    <div class="clearfix "></div>
                 </div>
-                <div class="form-group">
-                    <button class="btn btn-block button-theme btn-md">
-                        <i class="fa fa-search"></i> Search
+                <div class="form-group ">
+                    <button class="btn btn-block button-theme btn-md ">
+                        <i class="fa fa-search "></i> Search
                     </button>
                 </div>
             </form>
                     </div>
                    
                     <!-- Question start -->
-                    <div class="widget question widget-3">
-                        <h5 class="sidebar-title">Follow us</h5>
-                        <div class="social-list clearfix">
+                    <div class="widget question widget-3 ">
+                        <h5 class="sidebar-title ">Follow us</h5>
+                        <div class="social-list clearfix ">
                             <ul>
-                                <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
-                                <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="# " class="facebook-bg "><i class="fa fa-facebook "></i></a></li>
+                                <li><a href="# " class="twitter-bg "><i class="fa fa-twitter "></i></a></li>
+                                <li><a href="# " class="google-bg "><i class="fa fa-google-plus "></i></a></li>
+                                <li><a href="# " class="rss-bg "><i class="fa fa-rss "></i></a></li>
+                                <li><a href="# " class="linkedin-bg "><i class="fa fa-linkedin "></i></a></li>
                             </ul>
                         </div>
                     </div>
