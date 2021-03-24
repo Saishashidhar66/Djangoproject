@@ -155,6 +155,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',  #danger red color in bootstrap
 }
 
-SITE_ID = 1
+SITE_ID = 3
 #whitenoise code
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
