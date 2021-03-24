@@ -49,7 +49,7 @@
                             <div class="item carousel-item" data-slide-number="4">
                                 <img src="{{single_car.car_photo3.url}}" class="img-fluid" alt="slider-car">
                             </div>
-                           
+
                         </div>
                         <!-- main slider carousel nav controls -->
                         <div class="carousel-indicators-section clearfix">
@@ -74,7 +74,7 @@
                                         <img src="{{single_car.car_photo3.url}}" class="img-fluid" alt="small-car">
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                                         Description
                                     </h3>
                                     <p>
-                                      {{single_car.description | safe }}
+                                        {{single_car.description | safe }}
                                     </p>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                             <ul>
                                                 <li>
-                                                  {{single_car.features}}
+                                                    {{single_car.features}}
                                                 </li>
                                             </ul>
                                         </div>
@@ -183,128 +183,111 @@
                         </ul>
                     </div>
 
-                  <!-- Inquiry Modal -->
+                    <!-- Inquiry Modal -->
                     <div class="modal fade" id="inquiryModal" role="dialog">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="contact-dealer modal-header">
-                            <!-- <h5 class="modal-title" id="inquiryModalLabel">Contact Dealer</h5> -->
-                            <center><img src="{% static 'img/logos/logo-black-white.png' %}"></center>
-                            <button type="button" class="close" data-dismiss="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="contact-dealer modal-header">
+                                    <!-- <h5 class="modal-title" id="inquiryModalLabel">Contact Dealer</h5> -->
+                                    <center><img src="{% static 'img/logos/logo-black-white.png' %}"></center>
+                                    <button type="button" class="close" data-dismiss="modal">
                               <span>&times;</span>
                             </button>
-                          </div>
-                          <div class="modal-body">
-                            <form action="{% url 'inquiry' %}" method="POST">
-                                {% csrf_token %}
-                                {% if user.is_authenticated %}
-                                    <input type="hidden" name="user_id" value="{{ user.id }}">
-                                {% else %}
-                                    <input type="hidden" name="user_id" value="0">
-                                {% endif %}
-                                <input type="hidden" name="car_id" value="{{ single_car.id }}">
-                                
-                                <div class="form-group">
-                                  <label for="name" class="col-form-label">Hello, My Name is</label>
-                                  <div class="row">
-                                    <div class="col">
-                                      <input type="text" name="first_name" class="form-control" placeholder="First Name" 
-                                      {% if user.is_authenticated %}
-                                        value="{{ user.first_name }}"
-                                      {% endif %}
-                                      required>
-                                    </div>
-                                    <div class="col">
-                                      <input type="text" name="last_name" class="form-control" placeholder="Last Name" 
-                                      {% if user.is_authenticated %}
-                                        value="{{ user.last_name }}"
-                                      {% endif %}
-                                      required>
-                                    </div>
-                                  </div>
                                 </div>
-                                  <div class="form-group">
-                                      <select class="form-control" id="sel1" name="customer_need">
+                                <div class="modal-body">
+                                    <form action="{% url 'inquiry' %}" method="POST">
+                                        {% csrf_token %} {% if user.is_authenticated %}
+                                        <input type="hidden" name="user_id" value="{{ user.id }}"> {% else %}
+                                        <input type="hidden" name="user_id" value="0"> {% endif %}
+                                        <input type="hidden" name="car_id" value="{{ single_car.id }}">
+
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Hello, My Name is</label>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="text" name="first_name" class="form-control" placeholder="First Name" {% if user.is_authenticated %} value="{{ user.first_name }}" {% endif %} required>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" name="last_name" class="form-control" placeholder="Last Name" {% if user.is_authenticated %} value="{{ user.last_name }}" {% endif %} required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control" id="sel1" name="customer_need">
                                         <option value="I'm interested in this">I'm interested in this</option>
                                         <option value="I'd like to know your best price for this">I'd like to know your best price for this</option>
                                         <option value="I'd like to test drive this">I'd like to test drive this</option>
                                         <option value="I'd like a history report for this">I'd like a history report for this</option>
                                       </select>
-                                    </div>
-                                
-                                <div class="form-group">
-                                  <input type="text" name="car_title" class="form-control" value="{{ single_car.car_title }}" readonly>
-                                </div>
-                               
-                                <div class="form-group">
-                                  <label for="name" class="col-form-label">I live in</label>
-                                  <div class="row">
-                                    <div class="col">
-                                      <input type="text" name="city" class="form-control" placeholder="City" required>
-                                    </div>
-                                    <div class="col">
-                                      <input type="text" name="state" class="form-control" placeholder="State" required>
-                                    </div>
-                                  </div>
-                                </div>
+                                        </div>
 
-                                <div class="form-group">
-                                  <div class="row">
-                                    <div class="col">
-                                        <label for="name" class="col-form-label">You can reach me by email at</label>
-                                      <input type="email" name="email" class="form-control" placeholder="Email Address" 
-                                      {% if user.is_authenticated %}
-                                        value="{{ user.email }}"
-                                      {% endif %}
-                                      required>
-                                    </div>
-                                    <div class="col">
-                                        <label for="phone" class="col-form-label">or by phone at</label>
-                                      <input type="text" name="phone" placeholder="Phone Number (optional)" class="form-control">
-                                    </div>
-                                  </div>
-                                </div>
+                                        <div class="form-group">
+                                            <input type="text" name="car_title" class="form-control" value="{{ single_car.car_title }}" readonly>
+                                        </div>
 
-                                <div class="form-group">
-                                  <label for="message" class="col-form-label">Add comments</label>
-                                  <textarea name="message" class="form-control" placeholder="Enter your message here (optional)"></textarea>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">I live in</label>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="text" name="city" class="form-control" placeholder="City" required>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" name="state" class="form-control" placeholder="State" required>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <label for="name" class="col-form-label">You can reach me by email at</label>
+                                                    <input type="email" name="email" class="form-control" placeholder="Email Address" {% if user.is_authenticated %} value="{{ user.email }}" {% endif %} required>
+                                                </div>
+                                                <div class="col">
+                                                    <label for="phone" class="col-form-label">or by phone at</label>
+                                                    <input type="text" name="phone" placeholder="Phone Number (optional)" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="message" class="col-form-label">Add comments</label>
+                                            <textarea name="message" class="form-control" placeholder="Enter your message here (optional)"></textarea>
+                                        </div>
+                                        <hr>
+                                        <input type="submit" value="Send" class="btn btn-block btn-danger">
+                                    </form>
                                 </div>
-                                <hr>
-                                <input type="submit" value="Send" class="btn btn-block btn-danger">
-                            </form>
-                          </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-<!-- Question start -->
-<div class="widget question">
-    <h5 class="sidebar-title">Get a Question?</h5>
-    <ul class="contact-info">
-        <li>
-            <i class="flaticon-pin"></i>20/F Green Road, Dhanmondi
-        </li>
-        <li>
-            <i class="flaticon-mail"></i><a href=''>info@themevessel.com</a>
-        </li>
-        <li>
-            <i class="flaticon-phone"></i><a href=''>+0477 85x6 552</a>
-        </li>
-    </ul>
-    <div class="social-list clearfix">
-        <ul>
-            <li><a href='' class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-            <li><a href='' class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-            <li><a href='' class="google-bg"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href='' class="rss-bg"><i class="fa fa-rss"></i></a></li>
-            <li><a href='' class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-    </div>
-</div>
+                    <!-- Question start -->
+                    <div class="widget question">
+                        <h5 class="sidebar-title">Get a Question?</h5>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="flaticon-pin"></i>Warangal
+                            </li>
+                            <li>
+                                <i class="flaticon-mail"></i><a href="tel:saishashidhar66@gmail.com">saishashidhar66@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="flaticon-phone"></i><a href=''>+91 -957-322-4936</a>
+                            </li>
+                        </ul>
+                        <div class="social-list clearfix">
+                            <ul>
+                                <li><a href="https://www.facebook.com/saishashidhar" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/saishashidhar66" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="www.linkedin.com/in/sai-shashidhar-2026251a3" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-</div>
-</div>
-</div>
-</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Properties details page end -->
 
