@@ -32,7 +32,7 @@ LOGIN_REDIRECT_URL = 'dashboard'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'saishashidhar66@gmail.com'
-EMAIL_HOST_PASSWORD ='20082000Sai'
+EMAIL_HOST_PASSWORD ='yqraigucadwxmilb'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 
