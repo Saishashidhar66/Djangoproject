@@ -26,7 +26,7 @@ SECRET_KEY = '$&k@1+*+gb68xg2t5@#akx3&i!x_-!sw+e@)605zgt85jl(=$w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["lit-tor-02167.herokuapp.com"]
+ALLOWED_HOSTS = ["*"]
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -95,16 +95,16 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'mydb',
-#        'USER' : 'postgres',
-#        'PASSWORD' : '1234',
-#        'HOST' : 'localhost',
-#    }
-#}
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydb',
+        'USER' : 'postgres',
+        'PASSWORD' : '1234',
+        'HOST' : 'localhost',
+    }
+}'''
 DATABASES = {'default': dj_database_url.config(default='postgres://postgres:1234@localhost/mydb')}
 
 # Password validation

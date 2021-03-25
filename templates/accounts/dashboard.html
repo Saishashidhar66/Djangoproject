@@ -1,4 +1,4 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block content %}{% load humanize %}
 
 
 
@@ -34,27 +34,15 @@
 		</tr>
 	  </thead>
 	  <tbody>
+	  {% for car in featured_cars %}
 		<tr>
-		  <th scope="row">1</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
+		  <th scope="row">{{car.id}}</th>
+		  <td>{{ car.car_title }}</td>
+		  <td>{{ car.state }}</td>
+		  <td>${{ car.price | intcomma}}</td>
+		  <td><a href="{% url 'car_detail' car.id %}" class="btn btn-outline-dark">View Car</a></td>
 		</tr>
-		<tr>
-		  <th scope="row">2</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
-		</tr>
-		<tr>
-		  <th scope="row">3</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
-		</tr>
+{% endfor %}
 	  </tbody>
 	</table>
 </div>
